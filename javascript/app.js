@@ -26,20 +26,20 @@ particlesJS("particles-js", {
     shape: {
       type: "circle",
       stroke: {
-        width: 5,
-        color: "#d3e7e8",
+        width: 0,
+        color: "#000000",
       },
       polygon: {
-        nb_sides: 6,
+        nb_sides: 7,
       },
       image: {
         src: "img/github.svg",
-        width: 20,
-        height: -30,
+        width: 100,
+        height: 100,
       },
     },
     opacity: {
-      value: 0.38338764658326613,
+      value: 0.5129540629907585,
       random: true,
       anim: {
         enable: false,
@@ -49,7 +49,7 @@ particlesJS("particles-js", {
       },
     },
     size: {
-      value: 0,
+      value: 6,
       random: true,
       anim: {
         enable: false,
@@ -60,14 +60,14 @@ particlesJS("particles-js", {
     },
     line_linked: {
       enable: true,
-      distance: 166.6902811231592,
+      distance: 150,
       color: "#ffffff",
-      opacity: 0.2667044497970547,
-      width: 0.833451405615796,
+      opacity: 0.35838410441479224,
+      width: 1,
     },
     move: {
       enable: true,
-      speed: 1,
+      speed: 0.5,
       direction: "none",
       random: true,
       straight: false,
@@ -95,20 +95,20 @@ particlesJS("particles-js", {
     },
     modes: {
       grab: {
-        distance: 139.35810810810798,
+        distance: 400,
         line_linked: {
           opacity: 1,
         },
       },
       bubble: {
-        distance: 519.4256756756753,
-        size: 40,
+        distance: 367.39864864864836,
+        size: 50.675675675675635,
         duration: 2,
         opacity: 8,
         speed: 3,
       },
       repulse: {
-        distance: 253.3783783783782,
+        distance: 42.22972972972969,
         duration: 0.4,
       },
       push: {

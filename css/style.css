@@ -1,0 +1,131 @@
+/* Font face imports for local fonts */
+@font-face {
+  font-family: Almarai-Regular;
+  src: url("./../assets/fonts/Almarai-Regular.ttf");
+}
+
+@font-face {
+  font-family: Anton-Regular;
+  src: url("./../assets/fonts/Anton-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url("./../assets/fonts/Poppins-Light.otf");
+}
+
+@font-face {
+  font-family: Qaranta-Bold;
+  src: url("./../assets/fonts/Qaranta Bold.otf");
+}
+
+@font-face {
+  font-family: Redriver;
+  src: url("./../assets/fonts/Redriver.ttf");
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation bar styles */
+.nav-area {
+  width: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.4205883036808473) 0%,
+    rgba(0, 0, 0, 0.9163866230085784) 5%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  display: flex;
+  /* padding: 20px; */
+  padding: 2rem 0;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+
+.brand {
+  width: 10rem;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+
+.nav-wrapper {
+  color: white;
+  display: inline-block;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list_item {
+  padding-left: 2rem;
+  font-family: Almarai-Regular;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #00ffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.nav-list_item:hover {
+  color: #0ba3a3;
+}
+
+.nav-active {
+  color: #b728c5 !important;
+}
+.nav-active:hover {
+  color: #871c91 !important;
+}
+.iconWrapper {
+  color: black;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+  background: #01c2c2;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.iconWrapper:hover {
+  background: #00ffff;
+  color: black;
+}
+
+.socialMediaIcons {
+  display: flex;
+  padding-right: 2rem;
+}
+
+/* Landing banner styles */
+.landingBannerArea {
+  background: url("./../assets/images/Landing\ UI.png");
+  height: 100vh;
+  background-position-y: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leadingTextHeader {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 6rem;
+  font-family: Redriver;
+  text-align: center;
+  padding-top: 4rem;
+  z-index: 4;
+}
